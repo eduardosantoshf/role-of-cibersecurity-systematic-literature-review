@@ -347,7 +347,8 @@
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
-
+\usepackage{array}
+\usepackage{graphicx}
 
 \begin{document}
 %
@@ -507,6 +508,65 @@ Using the most recent findings and advancements in the field, this paper aims to
 The importance of cybersecurity in information systems will undoubtedly continue to develop as we move through the digital transformation era, demanding ongoing research, vigilance, and adaptation.
 
 
+\section{Methodology}
+
+In this study, a systematic literature review is conducted to obtain a comprehensive understanding of the current state-of-the-art regarding the role of Cybersecurity in Information Systems in Organizations. The primary goal of this review is to evaluate the published articles in this field and gain insights into the studies' objectives, data collection and analysis methods carried out, as well as the key findings.
+This section provides a detailed account of the methodology employed in conducting the literature review, including article selection and analysis processes, and presents the thematic areas covered by the selected articles.
+
+\subsection{Selection of the articles}
+
+The Scopus database was used to search and find the publications intended for this review. The query ("cybersecurity" AND "role" AND "Information Systems" AND "Organizations") with the time period between 2017 and 2023 returned 29 documents, where 10 were excluded for not being within the scope of this literature review. The abstract and introduction of the 19 articles were closely analysed and we concluded that 9 of them had a small substantial matter for this study case and were eliminated. 
+With that in mind, 10 articles were determined relevant and included in this literature review. This process is presented in Figure \ref{articles}.
+
+
+\begin{figure}[!h]
+    \centering
+    \caption{Article selection process}
+    \label{articles}
+    \includegraphics[width=\linewidth]{images/articles.jpg}
+\end{figure}
+
+
+\subsection{Data analysis}
+
+To successfully understand each article and how they can correlate with each other, we were able to group them into 4 main topics (Table \ref{table_1}).
+
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{1.3}
+    \normalsize
+    \caption{Topics and Articles}
+    \label{table_1}
+    \centering
+    
+    \begin{tabular}{ m{18em} m{5em} }
+        \hline
+        \textbf{Topics} & \textbf{Publications} \\
+        \hline
+        \textit{Cyber Security Awareness in Organizations} & \cite{Steps_article1}, \cite{Edu_article1} \\
+        \hline
+        \textit{Reasons for Increase in Cyber-attacks}   & \cite{Edu_article4}, sobral \\
+        \hline
+        \textit{Importance of the Highest Positions in the Prevention and Management of Security Breaches} & \cite{Steps_article3}, \cite{article3}, \cite{article11} \\
+        \hline
+        \textit{The Role of External Auditors and IT Modernization in Reducing Cybersecurity Risks} & \cite{bastos_1}, \cite{bastos_2} \\
+        \hline
+    \end{tabular}
+    
+\end{table}
+
+\subsection{Article analysis}
+
+The interest in the cybersecurity within the organizations is growing at a faster rate than ever. More and more organizations have been spending effort, time and money into this field and its growth reflects on the investigation carried in it. For that reason, the best and most relevant articles found in this area are from the last 4-5 years. Figure \ref{years} shows the distribution of the included articles in each year.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\linewidth]{images/years.png}
+    \caption{Article distribution}
+    \label{years}
+\end{figure}
+
+
+
 \section{Cyber Security Awareness in Organizations}
 
 In the modern era, the Internet has become a staple for a multitude of activities, including e-commerce and online banking. As a result, cybersecurity has emerged as a critical issue, particularly for the financial sector, which is frequently targeted by cyber threats \cite{Edu_article1}, although many other sectors suffer from this problem. 
@@ -640,13 +700,13 @@ Overall, these papers underline the necessity for a comprehensive approach to cy
 
 \section{Importance of the Highest Positions in the Prevention and Management of Security Breaches}
 
-An essential component of cybersecurity governance is the significance of the top positions inside businesses, especially top management teams (TMTs), in the prevention and management of security breaches. The three studies that shed light on the function of TMTs and strategic leaders in resolving cybersecurity issues and ensuring efficient risk management are discussed in this subsection.
+An essential component of cybersecurity governance is the significance of the top positions inside businesses, especially top management teams (TMTs), in the prevention and management of security breaches. 
 
-The importance of information security risk assessments (ISRAs) in the wake of cybersecurity breaches is emphasized in the first study, as is the mediating function of TMT attention to cybersecurity. It emphasizes how robust response to violations must take into account both internal and external factors. The cost of a breach affects the TMT's attention to cybersecurity, and higher breach costs cause more attention to be paid to security because of the failure to ensure security and the obligation to stakeholders. The study emphasizes the connection between breach costs, TMT security awareness, and the choice to do an ISRA. The findings highlight the significance of TMTs in setting cybersecurity as a top priority and devoting funds for risk analysis and management.
+It is important to have information security risk assessments (ISRAs) in the wake of cybersecurity breaches, as is the mediating function of TMT attention to cybersecurity, as introduced by Faheed et. all (2023) . It emphasizes how robust response to violations must take into account both internal and external factors. The cost of a breach affects the TMT's attention to cybersecurity, and higher breach costs cause more attention to be paid to security because of the failure to ensure security and the obligation to stakeholders. The study emphasizes the connection between breach costs, TMT security awareness, and the choice to do an ISRA. The findings highlight the significance of TMTs in setting cybersecurity as a top priority and devoting funds for risk analysis and management.
 
-The second article takes a strategic leadership stance and focuses on digital firms' cyber-resiliency. It draws attention to the negative effects of cyberattacks on reputation, data loss, and knowledge loss. The paper stresses how little is known empirically about how strategic leaders influence and support cybersecurity strategies. The study outlines recommended practices for achieving cyber-resiliency through exploratory interviews with Chief Information Officers (CIOs), Chief Security Information Officers (CSIOs), and Chief Technology Officers (CTOs). Making cyber-resilience a crucial organizational competency, comprehending the ecosystem and interactions with partners and suppliers, developing governance frameworks, and allocating responsibility for the success of cybersecurity strategies are some examples of these techniques. The conclusions of this article emphasize the critical part that strategic leaders play in promoting cybersecurity measures and incorporating them into business culture.
+Loonam et. all (2022) takes a strategic leadership stance and focuses on digital firms' cyber-resiliency. It draws attention to the negative effects of cyberattacks on reputation, data loss, and knowledge loss. The paper stresses how little is known empirically about how strategic leaders influence and support cybersecurity strategies. The study outlines recommended practices for achieving cyber-resiliency through exploratory interviews with Chief Information Officers (CIOs), Chief Security Information Officers (CSIOs), and Chief Technology Officers (CTOs). Making cyber-resilience a crucial organizational competency, comprehending the ecosystem and interactions with partners and suppliers, developing governance frameworks, and allocating responsibility for the success of cybersecurity strategies are some examples of these techniques. The conclusions of this article emphasize the critical part that strategic leaders play in promoting cybersecurity measures and incorporating them into business culture.
 
-The final study emphasizes how important it is to build formal leadership development programs that are specifically designed for cybersecurity and information technology (IT) professionals. It emphasizes how professionals' capacity to effectively manage risks, lead teams, and make strategic decisions in line with organizational goals is hampered by the way traditional technical training programs frequently overlook the development of leadership qualities. In the context of cybersecurity and IT, the paper makes the case for the introduction of formal leadership development programs that improve abilities including strategic thinking, communication, team management, problem-solving, and decision-making. These courses ought to include the particular difficulties faced by cybersecurity and IT workers, such as the requirement for constant innovation and adaptability in the face of increasing security threats. Organizations may improve their entire cybersecurity posture, promote collaboration between technical and non-technical teams, and establish a culture that appreciates technical expertise and effective leadership by investing in the development of cybersecurity and IT leaders.
+As emphasized by Burrell et. all (2018), it is important to build formal leadership development programs that are specifically designed for cybersecurity and information technology (IT) professionals. It emphasizes how professionals' capacity to effectively manage risks, lead teams, and make strategic decisions in line with organizational goals is hampered by the way traditional technical training programs frequently overlook the development of leadership qualities. In the context of cybersecurity and IT, the paper makes the case for the introduction of formal leadership development programs that improve abilities including strategic thinking, communication, team management, problem-solving, and decision-making. These courses ought to include the particular difficulties faced by cybersecurity and IT workers, such as the requirement for constant innovation and adaptability in the face of increasing security threats. Organizations may improve their entire cybersecurity posture, promote collaboration between technical and non-technical teams, and establish a culture that appreciates technical expertise and effective leadership by investing in the development of cybersecurity and IT leaders.
 
 Overall, the three papers offer insightful information about the significance of the top positions inside firms in managing and preventing security breaches. The development of leadership skills among cybersecurity and IT workers, strategic leaders' integration of cybersecurity strategies into organizational strategies, and TMT attention to cybersecurity are crucial to effectively tackling cybersecurity concerns. For effective cybersecurity governance, risk assessment, and risk management techniques, it is essential to comprehend and utilize the role of senior positions in firms.
 
@@ -655,14 +715,14 @@ Overall, the three papers offer insightful information about the significance of
 
 \subsection{Legacy Systems vs. Cloud Systems}
 
-Within the common opinion of IT specialists, there is still belief in the "security-by-antiquity" notion for big organizations and companies. That is the idea that keeping the old Legacy Systems instead of changing to a modern system is beneficial and reduces the risk of cyber-attacks. As it is mentioned in the article (REF STRATEGIC ROLES) in the first hypothesis studied, people argue that: 
+Within the common opinion of IT specialists, there is still belief in the "security-by-antiquity" notion for big organizations and companies. That is the idea that keeping the old Legacy Systems instead of changing to a modern system is beneficial and reduces the risk of cyber-attacks. As it is mentioned in the article \cite{bastos_1} in the first hypothesis studied, people argue that: 
 
 \begin{itemize}
     \item limited accessibility to Legacy Systems reduces their vulnerability;
     \item the lack of documentation and outdated tools make legacy systems less visible and limit the capabilities of likely offenders.
 \end{itemize}
 
-On the other hand, the modernization and migration to the cloud has its own advantages (REF STRATEGIC ROLES), (Hypothesis 2):  
+On the other hand, the modernization and migration to the cloud has its own advantages \cite{bastos_1}, (Hypothesis 2):  
 
 \begin{itemize}
     \item cloud vendors have more resources and capabilities to provide effective protection compared to in-house legacy systems.
@@ -671,26 +731,31 @@ On the other hand, the modernization and migration to the cloud has its own adva
     \item migration to the cloud involves modernization and standardization, decreasing target accessibility and improving security.
 \end{itemize}
 
-Overall, the study of both cases is performed in the article (REF STRATEGIC ROLES). 
+Overall, the study of both cases is performed in the article \cite{bastos_1}. 
 
 
 \subsection{External Auditors}
 
-External auditors usually don't have digital capability when performing financial reporting. The article (REF EXTERNAL AUDITORS) studies the relationships between the digital innovation, digital capability of auditors, their effort, performance and risk. 
+External auditors usually don't have digital capability when performing financial reporting. The article \cite{bastos_2} studies the relationships between the digital innovation, digital capability of auditors, their effort, performance and risk. 
 Over the years, they have improved and transformed and are familiar to the use of IT. 
 
 
 \subsection{Reducing cybersecurity risks}
 
-Overall, the digital modernization, either in the systems themselves (REF STRATEGIC ROLES) or in the audit process (REF EXTERNAL AUDITORS), is shown to be beneficial to reducing risks to the organization's private data. 
+Overall, the digital modernization, either in the systems themselves \cite{bastos_1} or in the audit process \cite{bastos_2}, is shown to be beneficial to reducing risks to the organization's private data. 
 
-The study in (REF STRATEGIC ROLES) focuses on U.S. federal agencies, analysing the relation between security incidents and IT modernization, cloud computing spending, etc. 
+The study in \cite{bastos_1} focuses on U.S. federal agencies, analysing the relation between security incidents and IT modernization, cloud computing spending, etc. 
 
 The results clearly state that a higher proportion of Legacy IT systems is associated with more security incidents in federal agencies and that migration to cloud based systems mitigate security risks. 
 
 It also shows that a smaller increase in the cloud budget leads to a larger decrease in security incidents. Not only breaches, but also usage and policy violation incidents.
 
-Bridging this results from (REF STRATEGIC ROLES) with (REF EXTERNAL AUDITORS), we can correlate that, generally, the digital innovation leads to better security management, resulting in less security breaches.
+Bridging this results from \cite{bastos_1} with \cite{bastos_2}, we can correlate that, generally, the digital innovation leads to better security management, resulting in less security breaches.
+
+Besides that, the longer the tenure of IT employees, the more frequent security breaches occur, while more educated IT workers experience fewer improper use incidents \cite{bastos_1}. Nowadays, auditors collaborate with IT teams to provide more competent and reliable information through system applications. The greater the level of awareness possessed by the auditor, who plays a vital role in safeguarding data security by enhancing cybersecurity in the business infrastructure, the fewer security breaches occur \cite{bastos_2}.
+
+As emphasized by \cite{bastos_2}, the significance of auditors understanding technological advancements at client companies is crucial to enhance audit implementation and uncover hidden findings for users of financial statements. that leads to higher security and less probability of breaches. Combining that with the IT modernization and cloud migration mentioned in \cite{bastos_1}, cybersecurity risks are considerably lower and more predictable and avoidable.
+
 
 \section{Conclusion}
 The conclusion goes here.
@@ -789,7 +854,17 @@ Kure HI, Islam S, Mouratidis H., \emph{An integrated cyber security risk managem
 \bibitem{Steps_article3}
 Burrell,D. N. and Aridi,A. S. and Nobles,C. \emph{The critical need for formal leadership development programs for cybersecurity and information technology professionals.}, 2018.
 
+\bibitem{article3}
+Faheem Ahmed Shaikh, Mikko Siponen, \emph{Information security risk assessments following cybersecurity breaches: The mediating role of top management attention to cybersecurity}, 2023.
 
+\bibitem{article11}
+Loonam, J., Zwiegelaar, J., Kumar, V., & Booth, C., \emph{Cyber-resiliency for digital enterprises: A strategic leadership perspective. IEEE Transactions on Engineering Management}, 2022.
+
+\bibitem{bastos_1}
+Min-Seok Pang, Hüseyin Tanriverdi, \emph{Strategic roles of IT modernization and cloud migration in reducing cybersecurity risks of organizations: The case of U.S. federal government}, 2022.
+
+\bibitem{bastos_2}
+Yohannes Kurniawan, Archie Nathanael Mulyawan, \emph{The Role of External Auditors in Improving Cybersecurity of the Companies through Internal Control in Financial Reporting}, 2022.
 \end{thebibliography}
 
 % biography section
